@@ -1,4 +1,4 @@
-// import Counter from 'rea./components/Counter';
+import Counter from './components/Counter';
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1>Vite + React + TS + Redux</h1>
-      {/* <Counter /> */}
+      <Counter />
     </>
   )
 }

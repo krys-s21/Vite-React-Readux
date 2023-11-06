@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 interface CounterState{
     value: number;
 }
-interface initialState: CounterState ={
+const initialState: CounterState ={
     value:0,
 }
 
@@ -14,7 +14,7 @@ const counterSlice = createSlice({
         increment: (state) => {
             state.value += 1;
         },
-        decrement: (state) =>{
+        decrement: (state) => {
             state.value -= 1;
         },
     }
